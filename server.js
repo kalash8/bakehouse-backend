@@ -37,6 +37,8 @@ app.use(cors({
   origin: [
     process.env.CLIENT_URL,
     process.env.ADMIN_URL,
+    'https://admin-zeta-lovat.vercel.app',
+    'https://bakehouse-menu.vercel.app',
     'http://localhost:5173',
     'http://localhost:5174',
   ],
